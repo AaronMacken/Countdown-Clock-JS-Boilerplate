@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="/index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+  <div><span id="time">00:00</span></div>
+      <p>
+          <label><input onchange="getInterval()" type="radio" name="val" value=05 /> Five</label>
+          <label><input onchange="getInterval()" type="radio" name="val" value=15 /> Fifteen</label>
+          <label><input onchange="getInterval()" type="radio" name="val" value=30 /> Thirty</label>
+          <label><input onchange="getInterval()" type="radio" name="val" value=45 /> Forty-five</label>
+      </p>
+      <p><button onclick="startClock()" id='start'>Start the clock</button></p>
+      <p><button onclick="pauseClock()" id='pause'>Pause the clock</button></p>
+      <p><button onclick="resetClock()" id='reset'>Reset the clock</button></p>
+    <script src="index.js"></script>
+  </body>
+</html>
